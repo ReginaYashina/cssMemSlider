@@ -3,8 +3,6 @@ body {
 
 }
 
-.container {}
-
 .wrapper {
 	width: 40rem;
 	margin: 0 auto;
@@ -78,6 +76,7 @@ input[name="button"] {
 	border-radius: 50%;
 	background: #4b6154;
 	transition: all .3s ease 0s;
+	box-sizing: border-box;
 }
 
 .text {
@@ -171,6 +170,27 @@ input[name="button"] {
 
 #button-5:checked~.controls>.label-5>.button {
 	background: rgba(100, 172, 143, 1);
+}
+
+
+#button-1:active~.controls>.label-1>.button {
+	border: 3px solid #fff;
+}
+
+#button-2:active~.controls>.label-2>.button {
+	border: 3px solid #fff;
+}
+
+#button-3:active~.controls>.label-3>.button {
+	border: 3px solid #fff;
+}
+
+#button-4:active~.controls>.label-4>.button {
+	border: 3px solid #fff;
+}
+
+#button-5:active~.controls>.label-5>.button {
+	border: 3px solid #fff;
 }
 
 
