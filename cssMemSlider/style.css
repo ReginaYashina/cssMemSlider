@@ -4,10 +4,11 @@ body {
 }
 
 .wrapper {
-	width: 40rem;
+	/* width: 40rem; */
+	width: 80vw;
 	margin: 0 auto;
 	padding: 5rem 0;
-	height: 35rem;
+	height: 80vh;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
@@ -196,14 +197,16 @@ input[name="button"] {
 
 @media (max-width:680px) {
 	.wrapper {
-		width: 30rem;
+		/* width: 30rem; */
+		/* width: 70vw; */
 	}
 }
 
 @media (max-width:500px) {
 	.wrapper {
 		height: 24rem;
-		width: 19rem;
+		/* width: 80vw; */
+		/* width: 19rem; */
 	}
 
 	.controls {
